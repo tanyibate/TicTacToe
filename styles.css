@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+html{
+    text-align: center;
+    font-family:'Nunito', sans-serif;
+    
+}
+
+input {
+    width: 75%;
+    padding: 12px 20px;
+    font-size: 30px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    
+}
+.game{
+    display: flex;
+    justify-content: center;
+    height: 85%;
+    border-bottom: 2px solid black;
+}
+.player{
+    box-sizing: border-box;
+    
+    display: inline-block;
+    width: 25%;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    
+    
+    
+}
+.main{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+    
+}
+
+.notifyPlayers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+.notifyPlayers p{
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+h1 span{
+    font-size: 65px;
+    vertical-align:middle;
+}
+
+h1{
+    vertical-align:middle; /* To align the X and O with the header */
+}
+/* border-collapse and border style hidden so that 
+hidden overrides the outside border to give Tic Tac Toe
+like border */
+table {
+    border-collapse: collapse; 
+    border-style: hidden;
+    margin: auto;
+  }
+  table td {
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    color: white; /* initial color if the color is changed it will
+    affect wether the cell is clickable*/
+    cursor: pointer;
+    padding: 0px;
+    margin: 0;
+  }
+
+  
+
