@@ -84,6 +84,8 @@ table {
     border-collapse: collapse; 
     border-style: hidden;
     margin: auto;
+    position: relative;
+    bottom: 25px;
   }
   table td {
     border: 5px solid black;
